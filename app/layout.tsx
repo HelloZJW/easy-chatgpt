@@ -3,7 +3,7 @@ import SideBar from "../components/SideBar";
 import { getServerSession } from "next-auth";
 
 import "../styles/globals.css";
-import ChatPage from "./chat/page";
+import ChatPage from "./chat/[id]/page";
 import { authOptions } from "../pages/api/auth/[...nextauth]";
 import Login from "../components/Login";
 
